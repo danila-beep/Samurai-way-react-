@@ -1,0 +1,23 @@
+.itemMyPosts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-areas:
+    "sT . ."
+    "sA sA sA"
+    ". . sB";
+}
+
+.itemMyPosts h3 {
+    grid-area: sT;
+}
+
+.itemMyPosts textarea {
+    grid-area: sA;
+    resize: none;
+}
+
+.itemMyPosts button {
+    grid-area: sB;
+}
+

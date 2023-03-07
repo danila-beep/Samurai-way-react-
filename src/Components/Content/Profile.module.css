@@ -1,0 +1,27 @@
+.content {
+    grid-area: c;
+    background-color: lightgray;
+}
+
+.contentHeaderPhoto {
+    width: 100%;
+    height: 250px;
+}
+
+.avaItem {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+    "aImg aText";
+
+    margin: 20px 10px 20px;
+}
+.avaImg {
+    grid-area: aImg;
+    width: 100px;
+    height: 100px;
+}
+.avaText {
+    grid-area: aText;
+}
