@@ -1,3 +1,7 @@
+.myPosts {
+    padding: 20px;
+}
+
 .itemMyPosts {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
